@@ -35,6 +35,11 @@ class User implements UserInterface
     protected $state;
 
     /**
+     * @var int
+     */
+    protected $role;
+
+    /**
      * Get id.
      *
      * @return int
@@ -165,4 +170,17 @@ class User implements UserInterface
         $this->state = $state;
         return $this;
     }
+    
+    public function getRole()
+    {
+        return $this->role;
+    }
+
+    public function setRole($role)
+    {
+        $this->role = $role;
+        return $this;
+    }
+
 }
+

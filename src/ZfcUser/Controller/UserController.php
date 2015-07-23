@@ -16,6 +16,7 @@ class UserController extends AbstractActionController
     const ROUTE_LOGIN        = 'zfcuser/login';
     const ROUTE_REGISTER     = 'zfcuser/register';
     const ROUTE_CHANGEEMAIL  = 'zfcuser/changeemail';
+	const ROUTE_CARS         = 'cars/index';
 
     const CONTROLLER_NAME    = 'zfcuser';
 

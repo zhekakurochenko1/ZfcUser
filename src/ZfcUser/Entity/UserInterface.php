@@ -93,4 +93,14 @@ interface UserInterface
      * @return UserInterface
      */
     public function setState($state);
+ /**
+     * get role
+     *
+     * @return mixed
+     */
+    public function getRole();
+
+    public function setRole($role);
 }
+  
+

@@ -21,7 +21,7 @@ class ModuleOptions extends AbstractOptions implements
     /**
      * @var string
      */
-    protected $loginRedirectRoute = 'zfcuser';
+    protected $loginRedirectRoute = 'cars';
 
     /**
      * @var string
